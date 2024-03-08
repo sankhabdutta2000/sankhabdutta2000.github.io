@@ -1,0 +1,45 @@
+@media screen and (max-width:412px) {
+
+
+    #logo {
+        height: 2rem;
+        width: 60vw;
+        margin-left: 1.5rem;
+    }
+
+    #logo p {
+        font-size: 25px;
+        width: 50vw;
+    }
+
+    .options {
+        visibility: hidden;
+    }
+
+    .threedashmenu img {
+        visibility: visible;
+        width: 2rem;
+        position: relative;
+        margin-left: 2rem;
+        cursor: pointer;
+    }
+
+    .mode {
+        position: relative;
+        margin-right: 2rem;
+        border-radius: 10px;
+        width: 5rem;
+        height: 1.4rem;
+    }
+
+    .lightmode img {
+        width: 2rem;
+        margin-left: 0.5rem;
+        /*visibility: hidden;*/
+    }
+
+    .darkmode img {
+        width: 2rem;
+        /*visibility: hidden;*/
+    }
+}

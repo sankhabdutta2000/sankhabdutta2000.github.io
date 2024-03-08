@@ -1,0 +1,205 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.blur{
+    opacity: 0.6;
+}
+.workMsg{
+    width: 80%;
+    height: 8rem;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    position: absolute;
+   margin: 23rem 6rem;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 84px;
+    z-index: 1;
+}
+.navbar {
+    width: 100%;
+    height: 2.5rem;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(13, 2, 24);
+    display: flex;
+}
+
+#logo {
+    position: relative;
+    margin-left: 4rem;
+    color: rgb(244, 248, 0);
+    font-weight: bold;
+}
+
+#logo p {
+    width: 25vw;
+    font-size: 24px;
+}
+
+.options {
+    width: 45vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    margin-left: 1rem;
+    font-size: 10px;
+}
+
+.threedashmenu img {
+    width: 2.7vw;
+    visibility: hidden;
+}
+
+li {
+    list-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+
+li a:hover {
+    text-decoration: underline;
+    font-size: 11px;
+}
+
+li a {
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: aliceblue;
+    font-size: 10px;
+    margin: 10px;
+}
+
+.mode {
+    position: relative;
+    margin-right: 1rem;
+    border-radius: 10px;
+    width: 3rem;
+    height: 1rem;
+    visibility: hidden;
+}
+
+.mode p {
+    font-size: 8px;
+    cursor: pointer;
+    
+}
+
+.lightmode img {
+    width: 2rem;
+    margin-left: 1rem;
+    visibility: hidden;
+}
+
+.darkmode img {
+
+    width: 2rem;
+    visibility: hidden;
+}
+
+
+#myVideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+@media (min-aspect-ratio: 16/9) {
+    #myVideo {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    #myVideo {
+        width: auto;
+        height: 100%;
+    }
+}
+
+
+/* Add some content at the bottom of the video/page */
+.content {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    background: rgba(0, 0, 0, 0.5);
+    width: 70%;
+    padding: 25px;
+    z-index: 0;
+}
+
+.frontpage {
+
+    height: 82vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftbar img {
+    display: grid;
+    width: 2vw;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 2px;
+    z-index: 1;
+    /*visibility: hidden;*/
+}
+
+.intro {
+    background-color: rgba(28, 28, 29, 0.7);
+    width: 70vw;
+    height: 60vh;
+    margin-left: 5rem;
+    margin-top: 0.5rem;
+    border-radius: 10px;
+    color: bisque;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    clip-path: none;
+}
+
+#1stline {}
+
+#2ndline {}
+
+#3rd line {}
+
+.profilepic img {
+    /*original resolution: 476px 753px*/
+    width: 12rem;
+    z-index: 1;
+
+}
+
+.gh {
+    height: 50rem;
+}
+
+.foot {
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(22, 21, 21);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+
+.foot p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+    font-size: 10px;
+    margin-top: 10px;
+}
