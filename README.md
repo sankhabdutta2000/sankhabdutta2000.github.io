@@ -1,2 +1,2 @@
 # sankhabdutta2000.github.io
-This is my personal portfolio
+[PORTFOLIO](https://github.com/sankhabdutta2000/sankhabdutta2000.github.io)
