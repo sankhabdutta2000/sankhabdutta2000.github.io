@@ -1,0 +1,546 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* navbar section style........................*/
+
+.navbar {
+    background-color: white;
+    width: 93%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0.2rem 3rem;
+    z-index: 1;
+}
+
+.portfolio {
+    background-image: linear-gradient(to top right, purple, black, blue);
+    width: 14rem;
+    height: 3.2rem;
+    border-radius: 2rem;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.options {
+    background-color: rgb(248, 241, 241);
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50vw;
+    height: 2.7rem;
+    border-radius: 2rem;
+    margin-left: 15rem;
+}
+
+.options span {
+    z-index: 2;
+    cursor: pointer;
+    user-select: none;
+    font-size: 1rem;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.mode {
+    cursor: pointer;
+    user-select: none;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    font-size: 1.3rem;
+    align-self: center;
+    background-color: black;
+}
+
+/*frontpage style........................*/
+
+.frontPage {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 80.3vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 15.5rem;
+    /*background-color: brown;*/
+}
+
+/* leftside fixed menu style........................*/
+
+.leftMenu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 8vw;
+    height: 70vh;
+    padding: 5.5rem 4rem;
+    
+
+}
+
+.leftMenu a {
+    cursor: pointer;
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+   
+}
+
+.leftMenu img {
+    width: 2rem;
+}
+#smallProfilePic {
+    width: 8rem;
+    height: 8rem;
+    background-color: rgb(252, 237, 31);
+    border-radius: 50%;
+    border: 5px solid green;
+    margin-top: 0.5rem;
+}
+
+/* home page section style ................*/
+
+.homePage {
+    width: 70%;
+    height: 70vh;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: url("./image/wallvideo.mp4");
+    margin-bottom: 5rem;
+}
+
+/*.homePageHide {
+    display: none;
+}*/
+
+/*
+#myVideo {
+    position: relative;
+    z-index: -1;
+    width: 70%;
+    height: 70vh;
+    border-radius: 2rem;
+}
+
+@media (min-aspect-ratio: 16/9) {
+    #myVideo {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    #myVideo {
+        width: auto;
+        height: 100%;
+    }
+}
+*/
+.introText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 1rem;
+
+}
+
+.intro {
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
+}
+
+.name {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bio {
+    text-transform: capitalize;
+    font-size: 1.4rem;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#profilePic {
+    width: 20rem;
+    height: 20rem;
+}
+
+/* about me page section style ................*/
+
+.aboutmePage {
+    padding: 1rem;
+}
+
+/*.aboutmePageHide {
+    display: none;
+}*/
+
+.aboutText {
+    background-color: rgb(213, 219, 219);
+    border-radius: 2rem;
+    width: 70vw;
+    height: fit-content;
+    font-size: 1.3rem;
+    padding: 2.1rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.smallAbout,
+.skill {
+    background-color: rgb(213, 219, 219);
+    border-radius: 2rem;
+    margin-top: 1rem;
+    padding: 1.5rem;
+    width: 70vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.smallAbout ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.smallAbout ul span li {
+    color: rgb(138, 3, 120);
+}
+
+.pan {
+    padding: 0.3rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: rgb(138, 3, 120);
+    background-color: rgba(7, 124, 124, 0.25);
+    margin: 0.5rem auto;
+}
+
+.skillContent {
+    width: 100%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+}
+
+.skillElement {
+    color: white;
+    background-image: linear-gradient(to bottom right, rgb(3, 53, 3), rgb(143, 143, 8), rgb(4, 4, 107));
+    width: 10rem;
+    height: 0.8rem;
+    font-size: 1.3rem;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+/*qualifications ..................................*/
+
+.qualification {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    width: 75vw;
+}
+
+.degree,
+.certification {
+    width: 34vw;
+    height: 30vw;
+    background-color: rgba(207, 182, 148, 0.5);
+    border-radius: 2rem;
+    padding: 1rem;
+    position: relative;
+    margin-top: 3rem;
+    bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
+
+.study,
+.additional,
+.skillText {
+    font-size: 1.5rem;
+    padding: 0.3rem;
+    margin-bottom: 0.25rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    color: wheat;
+    background-color: rgba(38, 49, 38, 0.8);
+    width: 20rem;
+    height: fit-content;
+    border-radius: 1rem;
+    /*position: fixed;
+    top: 0;
+    left: 0;*/
+}
+
+.pg,
+.ug,
+.hsc,
+.mp,
+.cyber,
+.c,
+.dtp,
+.basiccomp,
+.electrician,
+.ncsc {
+    background-color: rgba(170, 170, 207, 0.8);
+    border-radius: 2rem;
+    padding: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.pgText,
+.ugText,
+.hscText,
+.mpText,
+.cyberText,
+.cText,
+.dtpText,
+.basiccompText,
+.electricianText,
+.ncscText {
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    text-decoration: underline;
+}
+
+.instituteName {
+    text-transform: uppercase;
+}
+
+.pg ul li,
+.ug ul li,
+.hsc ul li,
+.mp ul li,
+.cyber ul li,
+.c ul li,
+.dtp ul li,
+.basiccomp ul li,
+.electrician ul li,
+.ncsc ul li {
+    font-weight: bold;
+    font-size: 0.9rem;
+    padding: 0.25rem;
+}
+
+/* project section style ........................*/
+
+.projectPage {
+    /*background-color: brown;*/
+    width: 100%;
+    height: fit-content;
+}
+
+/*.projectPageHide{
+    display: none;
+}*/
+.research,
+.projectWork {
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 2rem;
+    background-color: rgb(213, 219, 219);
+    width: 90%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.researchHeading,
+.projectWorkHeading {
+    color: antiquewhite;
+    background-color: rgb(2, 32, 32);
+    width: fit-content;
+    height: fit-content;
+    padding: 0.5rem;
+    font-size: 1.4rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.researchContent {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    background-color: rgb(211, 204, 192);
+    border-radius: 1rem;
+}
+
+.censusImg {
+    width: 15rem;
+    height: fit-content;
+    border-radius: 1rem;
+}
+
+.researchContent p {
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    margin-left: 2rem;
+}
+
+.projectContent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+    row-gap: 1rem;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 2rem;
+}
+.projectContent span img{
+    cursor: pointer;
+    width: 15rem;
+    height: 10rem;
+    border-radius: 1rem;
+    border: 2px solid black;
+}
+.projectContent span img:hover{
+    opacity: 0.5;
+}
+
+/*service section style........................*/
+
+.servicePage{
+    background-image: linear-gradient(to bottom right, rgb(136, 1, 170), rgb(224, 94, 224), rgb(228, 46, 46));
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 1rem;
+    border-radius: 2rem;
+    margin-top: 5rem;
+}
+/*.servicePageHide{
+    display: none;
+}*/
+
+/* blog section style........................*/
+
+.blogImg img{
+    width: 33rem;
+    height: 22rem;
+    border: 2px solid red;
+    border-radius: 2rem;
+   margin-top: 1.5rem;
+    box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.75),
+        25px 0px 20px -20px rgba(0, 0, 0, 0.75),
+        0px 25px 20px -20px rgba(0, 0, 0, 0.75),
+        -25px 0px 20px -20px rgba(0, 0, 0, 0.75);
+}
+.blogText{
+    background-color: rgb(170, 163, 156);
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-top: 1.5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+/*.blogPageHide{
+    display: none;
+}*/
+
+/* resume section style........................*/
+
+.resumePage{
+    font-size: 2rem;
+    background-color: gold;
+    width: 35rem;
+    height: 20rem;
+    margin: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*.resumePageHide{
+    display: none;
+}*/
+
+/* contact section style........................*/
+
+.contactPage{
+    font-size: 2rem;
+    background-color: gold;
+    width: 35rem;
+    height: 20rem;
+    margin: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*.contactPageHide{
+    display: none;
+}*/
+
+
+/* footer section style........................*/
+
+.footer {
+    color: aliceblue;
+    background-color: rgb(44, 43, 43);
+    width: 100%;
+    height: 2.5rem;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.email a {
+    color: rgb(105, 160, 207);
+    text-decoration: none;
+}
+
+.email a:hover {
+    color: rgb(226, 71, 240);
+    text-decoration: underlineg;
+}
