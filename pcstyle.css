@@ -127,11 +127,12 @@
     align-items: center;
     background: url("./image/wallvideo.mp4");
     margin-bottom: 5rem;
+    /*transition: transform 5s ease-in;*/
 }
 
-/*.homePageHide {
+.homePageHide {
     display: none;
-}*/
+}
 
 /*
 #myVideo {
@@ -198,9 +199,9 @@
     padding: 1rem;
 }
 
-/*.aboutmePageHide {
+.aboutmePageHide {
     display: none;
-}*/
+}
 
 .aboutText {
     background-color: rgb(213, 219, 219);
@@ -375,9 +376,9 @@
     height: fit-content;
 }
 
-/*.projectPageHide{
+.projectPageHide{
     display: none;
-}*/
+}
 .research,
 .projectWork {
     margin: 2rem auto;
@@ -458,9 +459,9 @@
     border-radius: 2rem;
     margin-top: 5rem;
 }
-/*.servicePageHide{
+.servicePageHide{
     display: none;
-}*/
+}
 
 /* blog section style........................*/
 
@@ -484,9 +485,9 @@
     padding: 1rem;
     border-radius: 1rem;
 }
-/*.blogPageHide{
+.blogPageHide{
     display: none;
-}*/
+}
 
 /* resume section style........................*/
 
@@ -500,9 +501,9 @@
     justify-content: center;
     align-items: center;
 }
-/*.resumePageHide{
+.resumePageHide{
     display: none;
-}*/
+}
 
 /* contact section style........................*/
 
@@ -516,9 +517,9 @@
     justify-content: center;
     align-items: center;
 }
-/*.contactPageHide{
+.contactPageHide{
     display: none;
-}*/
+}
 
 
 /* footer section style........................*/

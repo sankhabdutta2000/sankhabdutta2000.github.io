@@ -16,18 +16,22 @@ const blog = document.querySelector(".blog");
 const resume = document.querySelector(".resume");
 const contact = document.querySelector(".contact");
 const smallProfilePic = document.querySelector("#smallProfilePic");
+
 const homePage = document.querySelector(".homePage");
-const homePageHide = document.querySelector(".homePageHide");
 const aboutmePage = document.querySelector(".aboutmePage");
-const aboutmePageHide = document.querySelector(".aboutmePageHide");
 const projectPage = document.querySelector(".projectPage");
-const projectPageHide = document.querySelector(".projectPageHide");
 const servicePage = document.querySelector(".servicePage");
-const servicePageHide = document.querySelector(".servicePageHide");
 const blogPage = document.querySelector(".blogPage");
-const blogPageHide = document.querySelector(".blogPageHide");
 const resumePage = document.querySelector(".resumePage");
+const contactPage = document.querySelector(".contactPage");
+
+const homePageHide = document.querySelector(".homePageHide");
+const aboutmePageHide = document.querySelector(".aboutmePageHide");
+const projectPageHide = document.querySelector(".projectPageHide");
+const servicePageHide = document.querySelector(".servicePageHide");
+const blogPageHide = document.querySelector(".blogPageHide");
 const resumePageHide = document.querySelector(".resumePageHide");
+const contactPageHide = document.querySelector(".contactPageHide");
 
 let mode = document.querySelector(".mode");
 let currentMode = "light";
@@ -57,5 +61,75 @@ mode.addEventListener("click", ()=>{
         options.style.color = "black";
     }
 })
-
-
+window.addEventListener("load",()=>{
+    homePage.classList.remove("homePageHide");
+    aboutmePage.classList.add("aboutmePageHide");
+    projectPage.classList.add("projectPageHide");
+    servicePage.classList.add("servicePageHide");
+    blogPage.classList.add("blogPageHide");
+    resumePage.classList.add("resumePageHide");
+    contactPage.classList.add("contactPageHide");
+})
+home.addEventListener("click", ()=>{
+    homePage.classList.remove("homePageHide");
+    aboutmePage.classList.add("aboutmePageHide");
+    projectPage.classList.add("projectPageHide");
+    servicePage.classList.add("servicePageHide");
+    blogPage.classList.add("blogPageHide");
+    resumePage.classList.add("resumePageHide");
+    contactPage.classList.add("contactPageHide");
+})
+aboutme.addEventListener("click", ()=>{
+    homePage.classList.add("homePageHide");
+    aboutmePage.classList.remove("aboutmePageHide");
+    projectPage.classList.add("projectPageHide");
+    servicePage.classList.add("servicePageHide");
+    blogPage.classList.add("blogPageHide");
+    resumePage.classList.add("resumePageHide");
+    contactPage.classList.add("contactPageHide");
+})
+projects.addEventListener("click", ()=>{
+    homePage.classList.add("homePageHide");
+    aboutmePage.classList.add("aboutmePageHide");
+    projectPage.classList.remove("projectPageHide");
+    servicePage.classList.add("servicePageHide");
+    blogPage.classList.add("blogPageHide");
+    resumePage.classList.add("resumePageHide");
+    contactPage.classList.add("contactPageHide");
+})
+service.addEventListener("click",()=>{
+    homePage.classList.add("homePageHide");
+    aboutmePage.classList.add("aboutmePageHide");
+    projectPage.classList.add("projectPageHide");
+    servicePage.classList.remove("servicePageHide");
+    blogPage.classList.add("blogPageHide");
+    resumePage.classList.add("resumePageHide");
+    contactPage.classList.add("contactPageHide");
+})
+blog.addEventListener("click",()=>{
+    homePage.classList.add("homePageHide");
+    aboutmePage.classList.add("aboutmePageHide");
+    projectPage.classList.add("projectPageHide");
+    servicePage.classList.add("servicePageHide");
+    blogPage.classList.remove("blogPageHide");
+    resumePage.classList.add("resumePageHide");
+    contactPage.classList.add("contactPageHide");
+})
+resume.addEventListener("click",()=>{
+    homePage.classList.add("homePageHide");
+    aboutmePage.classList.add("aboutmePageHide");
+    projectPage.classList.add("projectPageHide");
+    servicePage.classList.add("servicePageHide");
+    blogPage.classList.add("blogPageHide");
+    resumePage.classList.remove("resumePageHide");
+    contactPage.classList.add("contactPageHide");
+})
+contact.addEventListener("click",()=>{
+    homePage.classList.add("homePageHide");
+    aboutmePage.classList.add("aboutmePageHide");
+    projectPage.classList.add("projectPageHide");
+    servicePage.classList.add("servicePageHide");
+    blogPage.classList.add("blogPageHide");
+    resumePage.classList.add("resumePageHide");
+    contactPage.classList.remove("contactPageHide");
+})
