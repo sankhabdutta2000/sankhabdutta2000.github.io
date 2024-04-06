@@ -16,6 +16,7 @@ const blog = document.querySelector(".blog");
 const resume = document.querySelector(".resume");
 const contact = document.querySelector(".contact");
 const smallProfilePic = document.querySelector("#smallProfilePic");
+const smallProfilePicHide = document.querySelector(".smallProfilePicHide");
 
 const homePage = document.querySelector(".homePage");
 const aboutmePage = document.querySelector(".aboutmePage");
@@ -69,6 +70,7 @@ window.addEventListener("load",()=>{
     blogPage.classList.add("blogPageHide");
     resumePage.classList.add("resumePageHide");
     contactPage.classList.add("contactPageHide");
+    smallProfilePic.classList.remove("smallProfilePicHide");
 })
 home.addEventListener("click", ()=>{
     homePage.classList.remove("homePageHide");
@@ -78,6 +80,7 @@ home.addEventListener("click", ()=>{
     blogPage.classList.add("blogPageHide");
     resumePage.classList.add("resumePageHide");
     contactPage.classList.add("contactPageHide");
+    smallProfilePic.classList.remove("smallProfilePicHide");
 })
 aboutme.addEventListener("click", ()=>{
     homePage.classList.add("homePageHide");

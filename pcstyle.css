@@ -107,7 +107,7 @@
 .leftMenu img {
     width: 2rem;
 }
-#smallProfilePic {
+.smallProfilePic img{
     width: 8rem;
     height: 8rem;
     background-color: rgb(252, 237, 31);
@@ -115,6 +115,9 @@
     border: 5px solid green;
     margin-top: 0.5rem;
 }
+/*.smallProfilePicHide{
+    display: none;
+}*/
 
 /* home page section style ................*/
 
