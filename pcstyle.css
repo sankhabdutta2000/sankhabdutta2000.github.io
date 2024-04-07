@@ -495,33 +495,45 @@
 /* resume section style........................*/
 
 .resumePage{
-    font-size: 2rem;
-    background-color: gold;
-    width: 35rem;
-    height: 20rem;
-    margin: 10rem;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .resumePageHide{
     display: none;
 }
+.downloadBtn{
+    color: aliceblue;
+    background-image: linear-gradient(to bottom right, rgb(18, 18, 219), rgb(27, 89, 182), rgb(134, 130, 189));
+    padding: 0.75rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.resumeImg img{
+    border: 2px solid black;
+    border-radius: 1rem;
+   margin-top: 2rem;
+   margin-bottom: 5rem;
+   width: 60vw;
+}
 
 /* contact section style........................*/
 
 .contactPage{
-    font-size: 2rem;
-    background-color: gold;
-    width: 35rem;
-    height: 20rem;
-    margin: 10rem;
+    
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .contactPageHide{
     display: none;
+}
+#contactImg{
+    border: 2px solid black;
+    border-radius: 1rem;
 }
 
 

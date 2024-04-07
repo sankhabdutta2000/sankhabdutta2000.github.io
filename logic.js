@@ -34,6 +34,8 @@ const blogPageHide = document.querySelector(".blogPageHide");
 const resumePageHide = document.querySelector(".resumePageHide");
 const contactPageHide = document.querySelector(".contactPageHide");
 
+const downloadBtn = document.querySelector(".downloadBtn");
+
 let mode = document.querySelector(".mode");
 let currentMode = "light";
 
@@ -135,4 +137,8 @@ contact.addEventListener("click",()=>{
     blogPage.classList.add("blogPageHide");
     resumePage.classList.add("resumePageHide");
     contactPage.classList.remove("contactPageHide");
+})
+
+downloadBtn.addEventListener("click", ()=>{
+    confirm("are you want to download ?");
 })
